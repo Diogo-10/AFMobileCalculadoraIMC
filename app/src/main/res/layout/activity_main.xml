@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/loginEdit"
+        android:textColor="@color/VerdeAgua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textSize="40sp"
+        android:layout_marginTop="130dp" />
+
+    <TextView
+        android:id="@+id/emailEdit"
+        android:textColor="@color/VerdeAgua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginEdit"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="17dp"
+        android:text="Email"
+         />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/emailEdit"
+        android:background="@drawable/border"
+        android:hint="exemplo@gmail.com"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/VerdeAgua"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/senhaEdit"
+        android:textColor="@color/VerdeAgua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numero1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="17dp"
+        android:text="Senha"
+        />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/senhaEdit"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+
+    <Button
+        android:id="@+id/entraButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/numero2"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Entrar"
+        android:textSize="18dp"
+        android:textColor="@color/VerdeAgua"
+         />
+
+
+</RelativeLayout>
