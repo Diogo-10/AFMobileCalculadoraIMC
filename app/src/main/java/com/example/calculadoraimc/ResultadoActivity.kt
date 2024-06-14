@@ -1,9 +1,13 @@
 package com.example.calculadoraimc
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.calculadoraimc.databinding.ActivityConfigBinding
 import com.example.calculadoraimc.databinding.ActivityResultadoBinding
 
 
@@ -13,6 +17,7 @@ class ResultadoActivity : DebugActivity() {
         ActivityResultadoBinding.inflate(layoutInflater)
 
     }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,6 +61,13 @@ class Usuario(val peso:Double, val altura:Double){
             imc < 34.9 -> "Obesidade Grau I"
             imc < 39.9 -> "Obesidade grau II"
             else -> "Obesidade grau II"
+
+
+
+
+
+
+
         }
     }
 

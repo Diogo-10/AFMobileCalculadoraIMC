@@ -1,0 +1,2 @@
+class actiity_config {
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/meuPerfilButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Meu Perfil"
+        android:textColor="@color/VerdeAgua"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/notificacaoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Notificações"
+        android:layout_below="@id/meuPerfilButton"
+        android:textColor="@color/VerdeAgua"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/ajudaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Ajuda"
+        android:layout_below="@id/notificacaoButton"
+        android:textColor="@color/VerdeAgua"
+        android:textAllCaps="true" />
+
+
+
+    <Button
+        android:id="@+id/contaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Conta"
+        android:layout_below="@id/ajudaButton"
+        android:textColor="@color/VerdeAgua"
+        android:textAllCaps="true" />
+
+
+
+
+
+</RelativeLayout>

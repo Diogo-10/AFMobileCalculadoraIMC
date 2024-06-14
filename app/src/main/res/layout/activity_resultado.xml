@@ -7,6 +7,19 @@
     android:background="@color/Azul"
     tools:context=".MainActivity">
 
+
+    <Button
+        android:id="@+id/configButton"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="8dp"
+        android:text=""
+        android:textColor="@color/VerdeAgua"
+        android:textAllCaps="true" />
+
+
     <TextView
         android:id="@+id/numero1"
         android:textColor="@color/VerdeAgua"
@@ -65,17 +78,7 @@
         android:textColor="@color/VerdeAgua"
         android:textAllCaps="true" />
 
-    <Button
-        android:id="@+id/resetButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/calcularButton"
-        android:layout_marginTop="25dp"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="8dp"
-        android:text="Resetar"
-        android:textColor="@color/VerdeAgua"
-        android:textAllCaps="true"/>
+
 
     <TextView
         android:id="@+id/numero4"
@@ -83,7 +86,7 @@
         android:layout_height="wrap_content"
         android:text="O resultado do seu IMC é:"
         android:textColor="@color/VerdeAgua"
-        android:layout_below="@id/resetButton"
+        android:layout_below="@id/calcularButton"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:textSize="16dp"/>
